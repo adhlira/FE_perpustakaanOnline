@@ -1,6 +1,7 @@
 const Navbar = () => {
   return (
     <>
+    {/* Navbar */}
       <div className="container mx-auto mt-1 p-2 border bg-green-300 rounded-lg">
         <div className="flex">
           <img src="src\assets\logo.png" alt="" width={50} height={50} />
@@ -16,6 +17,23 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      {/* Akhir Navbar */}
+
+      {/* Jumbotron */}
+      <div className="container p-10 mx-auto">
+        <div className="grid grid-cols-2 gap-3">
+          <div className="grid-flow-col place-content-center p-3">
+            <p className="text-lg">Star your reading</p>
+            <p className="text-2xl font-bold mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, similique.</p>
+            <p className="text-sm mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum facilis rem tempore! Illo, rem.</p>
+            <button className="border rounded-lg mt-5 p-3 bg-green-600 text-white">Start Reading</button>
+          </div>
+          <div className="grid-flow-col p-3">
+            <img src="src\assets\cover.jpg" className="h-[550px] w-full rounded-lg" alt="" />
+          </div>
+        </div>
+      </div>
+      {/* Akhir jumbotron */}
     </>
   );
 };
