@@ -6,7 +6,7 @@ import Book from "./pages/BookPerCategory.jsx";
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "/books", element: <Books /> },
-  { path: "/book_per_category", element: <Book /> },
+  { path: "/book_per_category_biografi", element: <Book /> },
 ]);
 
 const AppRoutes = () => {

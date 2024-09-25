@@ -8,26 +8,26 @@ const Books = () => {
       <Navbar />
       <div className="container p-10 mt-2 mx-auto">
         <div className="flex gap-4 mb-3">
-          <div className="border w-1/3 h-1/3 p-2 rounded-lg text-center">
+          <div className="border w-1/3 h-1/3 p-8 rounded-lg text-center">
             <p className="font-semibold text-xl mb-2">Category</p>
             <hr className="w-full mb-5" />
-            <NavLink to={"/book_per_category"} className={({ isActive }) => (isActive ? "rounded-lg bg-white p-2" : "hover:bg-white rounded-lg content-center text-center")}>
+            <NavLink to={"/book_per_category_biografi"}>
               <button className="font-semibold hover:bg-green-300 mb-3 rounded-lg w-full text-xl p-2">Biografi</button>
             </NavLink>
-            <NavLink to={"/book_per_category"} className={({ isActive }) => (isActive ? "rounded-lg bg-white p-2" : "hover:bg-white rounded-lg content-center text-center")}>
+            <NavLink to={"/book_per_category_fiction"}>
               <button className="font-semibold hover:bg-green-300 mb-3 rounded-lg w-full text-xl p-2">Fiction</button>
             </NavLink>
-            <NavLink to={"/book_per_category"} className={({ isActive }) => (isActive ? "rounded-lg bg-white p-2" : "hover:bg-white rounded-lg content-center text-center")}>
+            <NavLink to={"/book_per_category_history"}>
               <button className="font-semibold hover:bg-green-300 mb-3 rounded-lg w-full text-xl p-2">History</button>
             </NavLink>
-            <NavLink to={"/book_per_category"} className={({ isActive }) => (isActive ? "rounded-lg bg-white p-2" : "hover:bg-white rounded-lg content-center text-center")}>
+            <NavLink to={"/book_per_category_sains"}>
               <button className="font-semibold hover:bg-green-300 mb-3 rounded-lg w-full text-xl p-2">Sains</button>
             </NavLink>
-            <NavLink to={"/book_per_category"} className={({ isActive }) => (isActive ? "rounded-lg bg-white p-2" : "hover:bg-white rounded-lg content-center text-center")}>
+            <NavLink to={"/book_per_category_politics"}>
               <button className="font-semibold hover:bg-green-300 mb-3 rounded-lg w-full text-xl p-2">Politics</button>
             </NavLink>
-            <NavLink to={"/book_per_category"} className={({ isActive }) => (isActive ? "rounded-lg bg-white p-2" : "hover:bg-white rounded-lg content-center text-center")}>
-              <button className="font-semibold hover:bg-green-300 mb-3 rounded-lg w-full text-xl p-2">Technology</button>
+            <NavLink to={"/book_per_category_technology"}>
+              <button className="font-semibold hover:bg-green-300 rounded-lg w-full text-xl p-2">Technology</button>
             </NavLink>
           </div>
           <div className="border rounded-lg w-1/3 p-2">
