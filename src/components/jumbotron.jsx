@@ -66,9 +66,9 @@ const jumbotron = () => {
               <p className="mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, incidunt atque sunt esse ab quod. Dolore itaque quae unde totam.</p>
               <div className="flex mt-5 items-center">
                 <p>Status :</p>
-                <p className="ml-auto border p-2 rounded-lg  font-semibold">Not Available</p>
+                <p className="ml-auto border p-2 rounded-lg font-semibold">Not Available</p>
               </div>
-              <button className="border rounded-lg w-full font-semibold p-2 mt-5">Reservation</button>
+              <button className="border rounded-lg w-full font-semibold p-2 bg-green-300 mt-5">Reservation</button>
             </div>
           </div>
           <div className="flex-1 border rounded-lg p-3">
@@ -81,9 +81,9 @@ const jumbotron = () => {
               <p className="mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, incidunt atque sunt esse ab quod. Dolore itaque quae unde totam.</p>
               <div className="flex mt-5 items-center">
                 <p>Status :</p>
-                <p className="ml-auto border p-2 rounded-lg  font-semibold">Available</p>
+                <p className="ml-auto border p-2 rounded-lg font-semibold">Available</p>
               </div>
-              <button className="border rounded-lg w-full font-semibold p-2 mt-5">Borrow</button>
+              <button className="border rounded-lg w-full font-semibold bg-green-300 p-2 mt-5">Borrow</button>
             </div>
           </div>
           <div className="flex-1 border rounded-lg p-3">
@@ -96,9 +96,9 @@ const jumbotron = () => {
               <p className="mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, incidunt atque sunt esse ab quod. Dolore itaque quae unde totam.</p>
               <div className="flex mt-5 items-center">
                 <p>Status :</p>
-                <p className="ml-auto border p-2 rounded-lg  font-semibold">Available</p>
+                <p className="ml-auto border p-2 rounded-lg font-semibold">Available</p>
               </div>
-              <button className="border rounded-lg w-full font-semibold p-2 mt-5">Borrow</button>
+              <button className="border rounded-lg w-full bg-green-300 font-semibold p-2 mt-5">Borrow</button>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ const jumbotron = () => {
                 <p>Status :</p>
                 <p className="ml-auto border p-2 rounded-lg  font-semibold">Available</p>
               </div>
-              <button className="border rounded-lg w-full font-semibold p-2 mt-5">Borrow</button>
+              <button className="border rounded-lg w-full bg-green-300 font-semibold p-2 mt-5">Borrow</button>
             </div>
           </div>
           <div className="flex-1 border rounded-lg p-3">
@@ -130,7 +130,7 @@ const jumbotron = () => {
                 <p>Status :</p>
                 <p className="ml-auto border p-2 rounded-lg  font-semibold">Available</p>
               </div>
-              <button className="border rounded-lg w-full font-semibold p-2 mt-5">Borrow</button>
+              <button className="border rounded-lg w-full bg-green-300 font-semibold p-2 mt-5">Borrow</button>
             </div>
           </div>
           <div className="flex-1 border rounded-lg p-3">
@@ -145,7 +145,7 @@ const jumbotron = () => {
                 <p>Status :</p>
                 <p className="ml-auto border p-2 rounded-lg  font-semibold">Not Available</p>
               </div>
-              <button className="border rounded-lg w-full font-semibold p-2 mt-5">Reservation</button>
+              <button className="border rounded-lg w-full bg-green-300 font-semibold p-2 mt-5">Reservation</button>
             </div>
           </div>
         </div>

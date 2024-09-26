@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 
-const Login = () => {
+const SignUp = () => {
   const [passwordVisible, setPasswordVisible] = useState(false);
 
   const togglePasswordVisibility = () => {
@@ -17,13 +17,13 @@ const Login = () => {
           <NavLink to={"/"} className={"content-center text-center text-xl font-semibold rounded-lg hover:bg-green-300 p-1 ml-10"}>
             Home
           </NavLink>
-          <NavLink to={"/sign_up"} className={"text-center content-center font-semibold text-xl ml-auto rounded-lg p-1 hover:bg-green-300"}>
-            Sign Up
+          <NavLink to={"/login"} className={"text-center content-center font-semibold text-xl ml-auto rounded-lg p-1 hover:bg-green-300"}>
+            Sign In
           </NavLink>
         </div>
-        <div className="container rounded-lg bg-white mt-20">
+        <div className="container rounded-lg bg-white mt-10">
           <div className="border rounded-lg p-3 w-1/3 mx-auto">
-            <p className="text-center font-bold text-xl mb-2">Sign In</p>
+            <p className="text-center font-bold text-xl mb-2">Sign Up</p>
             <p className="text-center font-thin text-base mb-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, illum?</p>
             <form action="">
               <input type="text" name="username" className="border w-full h-10 p-2 mb-3" placeholder="Username" />
@@ -42,9 +42,13 @@ const Login = () => {
                   {passwordVisible ? <FaEyeSlash /> : <FaEye />} {/* Tampilkan icon yang sesuai */}
                 </span>
               </div>
+              <input type="text" name="name" className="border w-full h-10 p-2 mb-3" placeholder="Name" />
+              <input type="text" name="email" className="border w-full h-10 p-2 mb-3" placeholder="Email" />
+              <input type="text" name="phone_number" className="border w-full h-10 p-2 mb-3" placeholder="Phone Number" />
+              <button className="border w-full rounded-lg p-2 bg-green-300 font-semibold">Sign Up</button>
             </form>
-            <button className="border w-full rounded-lg p-2 bg-green-300 font-semibold">Log In</button>
           </div>
+
           <p className="text-center text-sm mt-4 font-thin content-center">Copyright 2024 | Perpus Online</p>
         </div>
       </div>
@@ -52,4 +56,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignUp;
