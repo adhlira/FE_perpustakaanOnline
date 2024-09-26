@@ -20,8 +20,12 @@ const Navbar = () => {
             </NavLink>
           </div>
           <div className="grid grid-cols-2 gap-3 ml-auto mr-1 text-xl font-medium">
-            <button className="p-1 hover:bg-white rounded-lg">Sign In</button>
-            <button className="p-1 hover:bg-white rounded-lg">Sign Up</button>
+            <NavLink to={"/login"} className={"content-center hover:bg-white text-center rounded-lg"}>
+            Sign In
+            </NavLink>
+            <NavLink to={"/sign_up"} className={"content-center hover:bg-white text-center rounded-lg p-1"}>
+            Sign Up
+            </NavLink>
           </div>
         </div>
       </div>
