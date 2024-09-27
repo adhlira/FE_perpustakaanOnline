@@ -41,7 +41,7 @@ const Books = () => {
               <p>Status :</p>
               <p className="ml-auto border p-2 rounded-lg  font-semibold">Not Available</p>
             </div>
-            <button className="border rounded-lg w-full font-semibold p-2 mt-5">Reservation</button>
+            <button className="border rounded-lg w-full font-semibold bg-green-300 p-2 mt-5">Reservation</button>
           </div>
           <div className="border rounded-lg w-1/3 p-2">
             <img src="src/assets/foto2.jpg" className="rounded-lg" alt="" />
@@ -54,7 +54,7 @@ const Books = () => {
               <p>Status :</p>
               <p className="ml-auto border p-2 rounded-lg  font-semibold">Available</p>
             </div>
-            <button className="border rounded-lg w-full font-semibold p-2 mt-5">Borrow</button>
+            <button className="border rounded-lg w-full bg-green-300 font-semibold p-2 mt-5">Borrow</button>
           </div>
         </div>
         <div className="flex gap-4 mb-3">
@@ -70,7 +70,7 @@ const Books = () => {
               <p>Status :</p>
               <p className="ml-auto border p-2 rounded-lg  font-semibold">Available</p>
             </div>
-            <button className="border rounded-lg w-full font-semibold p-2 mt-5">Borrow</button>
+            <button className="border rounded-lg w-full bg-green-300 font-semibold p-2 mt-5">Borrow</button>
           </div>
           <div className="w-1/3 border rounded-lg p-2">
             <img src="src/assets/foto1.jpg" className="rounded-lg" alt="" />
@@ -83,7 +83,7 @@ const Books = () => {
               <p>Status :</p>
               <p className="ml-auto border p-2 rounded-lg  font-semibold">Available</p>
             </div>
-            <button className="border rounded-lg w-full font-semibold p-2 mt-5">Borrow</button>
+            <button className="border rounded-lg w-full bg-green-300 font-semibold p-2 mt-5">Borrow</button>
           </div>
         </div>
       </div>
